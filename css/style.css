@@ -3443,7 +3443,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .controls-main-slider__navigation {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (3rem)[2];
+    /* -ms-grid-columns: (3rem)[2]; */
     grid-template-columns: repeat(2, 3rem);
     gap: 0.5rem;
   }
